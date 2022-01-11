@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Einstellungen"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        style="@style/Einstellungen"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Mail ändern"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="60dp"
+        android:id="@+id/EmailÄndern"
+        style="@style/Ändern"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passwort ändern"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/PasswortÄndern"
+        style="@style/Ändern"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name ändern"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/NameÄndern"
+        style="@style/Ändern"/>
+
+    <Button
+        style="@style/Ändern"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/white"
+        android:id="@+id/BenachtigungÄndern"
+        android:text="Benachrichtigung" />
+    <Button
+        style="@style/Ändern"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Grau"
+        android:id="@+id/zurueck"
+        android:text="Zurück" />
+    <include layout="@layout/bottom_navigation"/>
+</LinearLayout>

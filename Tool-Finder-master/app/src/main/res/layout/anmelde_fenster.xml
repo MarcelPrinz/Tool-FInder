@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Tool-Finder"
+        android:textSize="28dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        style="@style/InfoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Verleihe deine ungebrauchten Werkzeuge oder leihe Werkzeuge von Anbietern aus."
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Mail"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        style="@style/InfoText"/>
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/EMail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passwort"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        style="@style/InfoText"/>
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/Passwort"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benutzername"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        style="@style/InfoText"/>
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/Name"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anmelden"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/AnmeldenDich"
+        style="@style/InfoText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Noch nicht Registriert?"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        style="@style/InfoText"/>
+    <Button
+        android:id="@+id/RegistriereDich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registriere dich hier"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        style="@style/InfoText"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_page"/>
+
+    <Button
+        android:text="Zufällig Werkzeuge"
+        style="@style/Button"></Button>
+    <Button
+        android:text="Beliebte Angebote"
+        style="@style/Button"></Button>
+
+    <Button
+        android:text="In der Nähe"
+        style="@style/Button"></Button>
+
+    <Button
+        android:text="Empfohlen"
+        style="@style/Button"></Button>
+
+    <Button
+        style="@style/Button"
+        android:id="@+id/einstellungen"
+        android:layout_width="wrap_content"
+        android:text="Einstellungen"></Button>
+    
+    <Button
+        style="@style/Button"
+        android:id="@+id/ausloggen"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FA0900"
+        android:layout_gravity="right"
+        android:text="ausloggen"></Button>
+
+    <!--Verlinkungen der Symbole in der Navigationsbar funktionieren nicht,
+    deswegen der extra "Einstellungen" Button-->
+    <include layout="@layout/bottom_navigation" />
+
+</LinearLayout>
